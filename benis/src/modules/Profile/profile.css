@@ -1,0 +1,63 @@
+.user-profile {
+  width: 50%;
+  padding-bottom: 200px;
+  margin: auto
+}
+
+@media screen and (max-width: 1200px) {
+  .user-profile {
+    width: 90%;
+  }
+}
+
+.profile-section {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 40px #0000001A;
+  padding: 5px 20px 20px 20px;
+  margin-bottom: 10px;
+}
+
+.location-form {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 40px #0000001A;
+  padding: 5px 20px 20px 20px;
+  margin-bottom: 10px;
+}
+
+.location-card-container span{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+
+.location-form .wrapper {
+  margin-top: 20px;
+  width: 50%;
+  flex: 0 45%;
+  width: 100%
+}
+
+.location-card {
+  width: 240px;
+  height: 120px;
+  padding: 20px;
+  box-shadow: 0px 20px 40px #0000001A;
+}
+
+
+.location-card p {
+  font: normal normal normal 16px/22px Poppins;
+  margin: 0px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 20px;
+  width: 100%;
+}

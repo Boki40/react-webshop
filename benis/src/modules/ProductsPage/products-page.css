@@ -1,0 +1,68 @@
+.pagination {
+    list-style: none;
+}
+
+.pagination li {
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 2.8px;
+}
+
+.pagination .active a {
+    color: #DC386D;
+}
+
+.pagination li a {
+    color: white;
+}
+
+.previous a, .next a {
+    background: #DC386D 0% 0% no-repeat padding-box;
+    border: 6px solid #DC386D;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.previous.disabled a, .next.disabled a {
+    background-color: #838383;
+    border: 6px solid #838383;
+}
+
+.loading-product {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    font: normal normal medium 14px/21px Poppins;
+    font-weight: bold;
+}
+
+.products-search-wrapper {
+    position: absolute;
+    width: 51%;
+    margin: auto;
+    left: 0;
+    right: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-search-wrapper .search-results {
+    top: -60px;
+}
+
+.products-page {
+    position: relative;
+    margin-top: 50px;
+    position: relative;
+}
+
+.products-page .breadcomb{
+    width:50%;
+    margin:auto;
+    margin-bottom:100px;
+}

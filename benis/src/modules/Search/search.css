@@ -1,0 +1,140 @@
+/*search-item-price
+search-item-name
+item-info
+search-item-image*/
+
+.search-results {
+    padding: 2em;
+    padding-top: 170px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    margin: auto;
+    top: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 20px #00000029;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-result-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 20px #00000014;
+    width: 95%;
+    padding: 10px;
+    height: 90px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.search-item-image {
+    height: 80px;
+    max-width: 90px;
+    min-width: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.search-item-name {
+    display: inline-flex;
+    flex-grow: 2;
+}
+
+.search-item-name a {
+    font: normal normal bold 24px/32px Poppins;
+    letter-spacing: 0px;
+    color: #181818;
+    text-decoration: none;
+}
+
+.search-item-price {
+    font: normal normal bold 20px/32px Poppins;
+    letter-spacing: 0px;
+    color: #DC386D;
+}
+
+.search-old-item-price {
+    text-decoration: line-through;
+    font: normal normal medium 20px/32px Poppins;
+    letter-spacing: 0px;
+    color: #181818;
+}
+
+.search-prime-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: inline-flex;
+    flex-grow: 2;
+}
+
+.beni-button.search {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .search-result-card {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.search-wrapper {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 65px;
+    bottom: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+.searchContainer {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px #0000001F;
+    opacity: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    position: absolute;
+    z-index: 5;
+    padding: 30px;
+}
+
+.searchBox {
+    padding-left: 15px;
+    border: none;
+    background-color: #F5F5F5;
+    width: 89%;
+    height: 50px;
+    font: normal normal bold 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #DC386D;
+}
+
+.searchBox::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #566C7D;
+    opacity: 1;
+    /* Firefox */
+    font: italic normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+}
+
+.searchButton {
+    background-color: #DC386D;
+    border: none;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: larger
+}

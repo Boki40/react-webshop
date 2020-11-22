@@ -1,0 +1,63 @@
+.gyik-container {
+    margin-bottom: 100px;
+}
+
+.Collapsible__trigger{
+    cursor: pointer;
+    font-size:20px;
+    font-family:  Poppins;
+}
+
+.Collapsible__trigger.is-closed {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    line-height: 60px;
+    padding: 15px;
+    margin-bottom: -5px;
+}
+
+.Collapsible__trigger.is-open {
+    background: transparent linear-gradient(90deg, #DC386D 0%, #FFB3B5 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    padding: 15px;
+    line-height: 60px;
+}
+
+.Collapsible {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Collapsible__contentInner {
+    padding: 25px;
+    font: normal normal normal 16px/25px Poppins;
+    padding-bottom:40px;
+}
+
+.collapsible-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Collapsible.open {
+    box-shadow: 0px 3px 20px #DC386D69;
+    z-index: 2;
+}
+
+.Collapsible__trigger.is-open::after {
+    content: "-";
+    float: right;
+    font-size: 48px;
+    margin-right: 15px;
+    line-height: 01;
+}
+
+.Collapsible__trigger.is-closed::after {
+    content: "+";
+    float: right;
+    font-size: 48px;
+    margin-right: 15px;
+    line-height: 01;
+}
