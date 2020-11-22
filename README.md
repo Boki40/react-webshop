@@ -6,6 +6,10 @@ MMSOne álláshirdetésre készített frontend beugró. (Backend funkciók nélk
 
 
 ```
+npm install
+cd ./benis
+npm install
+cd ..
 npm run start-servers
 ```
 
