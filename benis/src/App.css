@@ -249,6 +249,9 @@ h1 {
     .page-body {
         width: 90%;
     }
+    .sponsor-container {
+        flex-direction: column;
+    }
 }
 
 .divider {
